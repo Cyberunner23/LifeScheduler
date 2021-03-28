@@ -3,13 +3,15 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.31019.35
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LifeScheduler.API.DTO", "LifeScheduler.API.DTO\LifeScheduler.API.DTO.csproj", "{2DE3A914-A9CD-4B55-A236-1DE337139582}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LifeScheduler.Backend.ApiModels", "LifeScheduler.Backend.ApiModels\LifeScheduler.Backend.ApiModels.csproj", "{DAA93C2B-B69A-437F-A20C-9885BB2E0791}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NukeBuild", "NukeBuild\NukeBuild.csproj", "{DBDE84CB-BBF5-48BA-98B4-C91358B20427}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LifeScheduler.Backend.ASPNetCore", "LifeScheduler.Backend.ASPNetCore\LifeScheduler.Backend.ASPNetCore.csproj", "{3336ADF3-8E61-45D1-80BE-194D6C00554D}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LifeScheduler.ServerHost", "LifeScheduler.ServerHost\LifeScheduler.ServerHost.csproj", "{92B73DD5-2266-4609-A232-2DB34C7C1CD8}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LifeScheduler.Backend.AzureFunctions", "LifeScheduler.Backend.AzureFunctions\LifeScheduler.Backend.AzureFunctions.csproj", "{2426F4AE-C1E7-48EC-9B6B-1678037FE592}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LifeScheduler.Frontend", "LifeScheduler.Frontend\LifeScheduler.Frontend.csproj", "{3AC01045-3203-4DD7-A811-C5258C229DCD}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LifeScheduler.Backend.Logic", "LifeScheduler.Backend.Logic\LifeScheduler.Backend.Logic.csproj", "{25AFBCFF-7F4A-465A-8C55-5103412C5C53}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NukeBuild", "NukeBuild\NukeBuild.csproj", "{273D0D4A-BBD0-41FC-84ED-5A73C1429FA2}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -19,34 +21,46 @@ Global
 		ServerHost|Any CPU = ServerHost|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{2DE3A914-A9CD-4B55-A236-1DE337139582}.AzureHost|Any CPU.ActiveCfg = AzureHost|Any CPU
-		{2DE3A914-A9CD-4B55-A236-1DE337139582}.AzureHost|Any CPU.Build.0 = AzureHost|Any CPU
-		{2DE3A914-A9CD-4B55-A236-1DE337139582}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{2DE3A914-A9CD-4B55-A236-1DE337139582}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{2DE3A914-A9CD-4B55-A236-1DE337139582}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{2DE3A914-A9CD-4B55-A236-1DE337139582}.Release|Any CPU.Build.0 = Release|Any CPU
-		{2DE3A914-A9CD-4B55-A236-1DE337139582}.ServerHost|Any CPU.ActiveCfg = ServerHost|Any CPU
-		{2DE3A914-A9CD-4B55-A236-1DE337139582}.ServerHost|Any CPU.Build.0 = ServerHost|Any CPU
-		{DBDE84CB-BBF5-48BA-98B4-C91358B20427}.AzureHost|Any CPU.ActiveCfg = AzureHost|Any CPU
-		{DBDE84CB-BBF5-48BA-98B4-C91358B20427}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{DBDE84CB-BBF5-48BA-98B4-C91358B20427}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{DBDE84CB-BBF5-48BA-98B4-C91358B20427}.ServerHost|Any CPU.ActiveCfg = ServerHost|Any CPU
-		{92B73DD5-2266-4609-A232-2DB34C7C1CD8}.AzureHost|Any CPU.ActiveCfg = Debug|Any CPU
-		{92B73DD5-2266-4609-A232-2DB34C7C1CD8}.AzureHost|Any CPU.Build.0 = Debug|Any CPU
-		{92B73DD5-2266-4609-A232-2DB34C7C1CD8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{92B73DD5-2266-4609-A232-2DB34C7C1CD8}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{92B73DD5-2266-4609-A232-2DB34C7C1CD8}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{92B73DD5-2266-4609-A232-2DB34C7C1CD8}.Release|Any CPU.Build.0 = Release|Any CPU
-		{92B73DD5-2266-4609-A232-2DB34C7C1CD8}.ServerHost|Any CPU.ActiveCfg = Debug|Any CPU
-		{92B73DD5-2266-4609-A232-2DB34C7C1CD8}.ServerHost|Any CPU.Build.0 = Debug|Any CPU
-		{3AC01045-3203-4DD7-A811-C5258C229DCD}.AzureHost|Any CPU.ActiveCfg = Debug|Any CPU
-		{3AC01045-3203-4DD7-A811-C5258C229DCD}.AzureHost|Any CPU.Build.0 = Debug|Any CPU
-		{3AC01045-3203-4DD7-A811-C5258C229DCD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{3AC01045-3203-4DD7-A811-C5258C229DCD}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{3AC01045-3203-4DD7-A811-C5258C229DCD}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{3AC01045-3203-4DD7-A811-C5258C229DCD}.Release|Any CPU.Build.0 = Release|Any CPU
-		{3AC01045-3203-4DD7-A811-C5258C229DCD}.ServerHost|Any CPU.ActiveCfg = Debug|Any CPU
-		{3AC01045-3203-4DD7-A811-C5258C229DCD}.ServerHost|Any CPU.Build.0 = Debug|Any CPU
+		{DAA93C2B-B69A-437F-A20C-9885BB2E0791}.AzureHost|Any CPU.ActiveCfg = Debug|Any CPU
+		{DAA93C2B-B69A-437F-A20C-9885BB2E0791}.AzureHost|Any CPU.Build.0 = Debug|Any CPU
+		{DAA93C2B-B69A-437F-A20C-9885BB2E0791}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DAA93C2B-B69A-437F-A20C-9885BB2E0791}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DAA93C2B-B69A-437F-A20C-9885BB2E0791}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DAA93C2B-B69A-437F-A20C-9885BB2E0791}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DAA93C2B-B69A-437F-A20C-9885BB2E0791}.ServerHost|Any CPU.ActiveCfg = Debug|Any CPU
+		{DAA93C2B-B69A-437F-A20C-9885BB2E0791}.ServerHost|Any CPU.Build.0 = Debug|Any CPU
+		{3336ADF3-8E61-45D1-80BE-194D6C00554D}.AzureHost|Any CPU.ActiveCfg = Debug|Any CPU
+		{3336ADF3-8E61-45D1-80BE-194D6C00554D}.AzureHost|Any CPU.Build.0 = Debug|Any CPU
+		{3336ADF3-8E61-45D1-80BE-194D6C00554D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3336ADF3-8E61-45D1-80BE-194D6C00554D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3336ADF3-8E61-45D1-80BE-194D6C00554D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3336ADF3-8E61-45D1-80BE-194D6C00554D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3336ADF3-8E61-45D1-80BE-194D6C00554D}.ServerHost|Any CPU.ActiveCfg = Debug|Any CPU
+		{3336ADF3-8E61-45D1-80BE-194D6C00554D}.ServerHost|Any CPU.Build.0 = Debug|Any CPU
+		{2426F4AE-C1E7-48EC-9B6B-1678037FE592}.AzureHost|Any CPU.ActiveCfg = Debug|Any CPU
+		{2426F4AE-C1E7-48EC-9B6B-1678037FE592}.AzureHost|Any CPU.Build.0 = Debug|Any CPU
+		{2426F4AE-C1E7-48EC-9B6B-1678037FE592}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2426F4AE-C1E7-48EC-9B6B-1678037FE592}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2426F4AE-C1E7-48EC-9B6B-1678037FE592}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2426F4AE-C1E7-48EC-9B6B-1678037FE592}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2426F4AE-C1E7-48EC-9B6B-1678037FE592}.ServerHost|Any CPU.ActiveCfg = Debug|Any CPU
+		{2426F4AE-C1E7-48EC-9B6B-1678037FE592}.ServerHost|Any CPU.Build.0 = Debug|Any CPU
+		{25AFBCFF-7F4A-465A-8C55-5103412C5C53}.AzureHost|Any CPU.ActiveCfg = Debug|Any CPU
+		{25AFBCFF-7F4A-465A-8C55-5103412C5C53}.AzureHost|Any CPU.Build.0 = Debug|Any CPU
+		{25AFBCFF-7F4A-465A-8C55-5103412C5C53}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{25AFBCFF-7F4A-465A-8C55-5103412C5C53}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{25AFBCFF-7F4A-465A-8C55-5103412C5C53}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{25AFBCFF-7F4A-465A-8C55-5103412C5C53}.Release|Any CPU.Build.0 = Release|Any CPU
+		{25AFBCFF-7F4A-465A-8C55-5103412C5C53}.ServerHost|Any CPU.ActiveCfg = Debug|Any CPU
+		{25AFBCFF-7F4A-465A-8C55-5103412C5C53}.ServerHost|Any CPU.Build.0 = Debug|Any CPU
+		{273D0D4A-BBD0-41FC-84ED-5A73C1429FA2}.AzureHost|Any CPU.ActiveCfg = AzureHost|Any CPU
+		{273D0D4A-BBD0-41FC-84ED-5A73C1429FA2}.AzureHost|Any CPU.Build.0 = AzureHost|Any CPU
+		{273D0D4A-BBD0-41FC-84ED-5A73C1429FA2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{273D0D4A-BBD0-41FC-84ED-5A73C1429FA2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{273D0D4A-BBD0-41FC-84ED-5A73C1429FA2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{273D0D4A-BBD0-41FC-84ED-5A73C1429FA2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{273D0D4A-BBD0-41FC-84ED-5A73C1429FA2}.ServerHost|Any CPU.ActiveCfg = ServerHost|Any CPU
+		{273D0D4A-BBD0-41FC-84ED-5A73C1429FA2}.ServerHost|Any CPU.Build.0 = ServerHost|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
