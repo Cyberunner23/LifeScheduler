@@ -9,6 +9,16 @@
 
 	<div slot="center">
 		CENTER
+		<Sortable {items} let:item={item} options={{ group: 'shared' }}>
+			<div>
+				<button> {item} </button>
+			</div>
+		</Sortable>
+		<Sortable items={items2} let:item={item} options={{ group: 'shared' }}>
+			<div>
+				<button> {item} </button>
+			</div>
+		</Sortable>
 	</div>
 
 	<div slot="right">
@@ -25,9 +35,8 @@
 	import SiteHeader from "./Components/SiteHeader.svelte";
 	import DockPanel from "./Components/DockPanel.svelte";
 
-	import Sortable from "svelte-sortable"
+	import Sortable from "svelte-sortable";
 
-	let targetElement: Sortable;
 
     let items = [
         "foo",

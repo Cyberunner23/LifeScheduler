@@ -25,7 +25,9 @@
     "@tsconfig/svelte": "^1.0.0"
   },
   "dependencies": {
+    "@types/sortablejs": "^1.10.6",
     "sirv-cli": "^1.0.0",
+    "sortablejs": "^1.13.0",
     "svelte-sortable": "^0.1.0"
   }
 }
