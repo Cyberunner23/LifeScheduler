@@ -2,7 +2,7 @@
 
   <PropertyGroup>
     <TargetFramework>net5.0</TargetFramework>
-    <RootNamespace>LifeScheduler.Backend.Logic</RootNamespace>
+    <RootNamespace>LifeScheduler.BusinessLogic</RootNamespace>
   </PropertyGroup>
 
 </Project>
