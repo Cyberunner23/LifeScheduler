@@ -13,6 +13,12 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LifeScheduler.BusinessLogic
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NukeBuild", "NukeBuild\NukeBuild.csproj", "{273D0D4A-BBD0-41FC-84ED-5A73C1429FA2}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LifeScheduler.DataPersistence", "LifeScheduler.DataPersistence\LifeScheduler.DataPersistence.csproj", "{221A97A8-2354-405A-BE33-36ABF5BBC27F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LifeScheduler.DataPersistence.MySql", "LifeScheduler.DataPersistence.MySql\LifeScheduler.DataPersistence.MySql.csproj", "{1AFF169E-CBF8-43E3-99D0-A8FA30B9F1A3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LifeScheduler.DataPersistence.AzureTableStorage", "LifeScheduler.DataPersistence.AzureTableStorage\LifeScheduler.DataPersistence.AzureTableStorage.csproj", "{3BE3384C-F3BB-443B-B442-945E348C1849}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		AzureHost|Any CPU = AzureHost|Any CPU
@@ -61,6 +67,30 @@ Global
 		{273D0D4A-BBD0-41FC-84ED-5A73C1429FA2}.Release|Any CPU.Build.0 = Release|Any CPU
 		{273D0D4A-BBD0-41FC-84ED-5A73C1429FA2}.ServerHost|Any CPU.ActiveCfg = ServerHost|Any CPU
 		{273D0D4A-BBD0-41FC-84ED-5A73C1429FA2}.ServerHost|Any CPU.Build.0 = ServerHost|Any CPU
+		{221A97A8-2354-405A-BE33-36ABF5BBC27F}.AzureHost|Any CPU.ActiveCfg = Debug|Any CPU
+		{221A97A8-2354-405A-BE33-36ABF5BBC27F}.AzureHost|Any CPU.Build.0 = Debug|Any CPU
+		{221A97A8-2354-405A-BE33-36ABF5BBC27F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{221A97A8-2354-405A-BE33-36ABF5BBC27F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{221A97A8-2354-405A-BE33-36ABF5BBC27F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{221A97A8-2354-405A-BE33-36ABF5BBC27F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{221A97A8-2354-405A-BE33-36ABF5BBC27F}.ServerHost|Any CPU.ActiveCfg = Debug|Any CPU
+		{221A97A8-2354-405A-BE33-36ABF5BBC27F}.ServerHost|Any CPU.Build.0 = Debug|Any CPU
+		{1AFF169E-CBF8-43E3-99D0-A8FA30B9F1A3}.AzureHost|Any CPU.ActiveCfg = Debug|Any CPU
+		{1AFF169E-CBF8-43E3-99D0-A8FA30B9F1A3}.AzureHost|Any CPU.Build.0 = Debug|Any CPU
+		{1AFF169E-CBF8-43E3-99D0-A8FA30B9F1A3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1AFF169E-CBF8-43E3-99D0-A8FA30B9F1A3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1AFF169E-CBF8-43E3-99D0-A8FA30B9F1A3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1AFF169E-CBF8-43E3-99D0-A8FA30B9F1A3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1AFF169E-CBF8-43E3-99D0-A8FA30B9F1A3}.ServerHost|Any CPU.ActiveCfg = Debug|Any CPU
+		{1AFF169E-CBF8-43E3-99D0-A8FA30B9F1A3}.ServerHost|Any CPU.Build.0 = Debug|Any CPU
+		{3BE3384C-F3BB-443B-B442-945E348C1849}.AzureHost|Any CPU.ActiveCfg = Debug|Any CPU
+		{3BE3384C-F3BB-443B-B442-945E348C1849}.AzureHost|Any CPU.Build.0 = Debug|Any CPU
+		{3BE3384C-F3BB-443B-B442-945E348C1849}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3BE3384C-F3BB-443B-B442-945E348C1849}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3BE3384C-F3BB-443B-B442-945E348C1849}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3BE3384C-F3BB-443B-B442-945E348C1849}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3BE3384C-F3BB-443B-B442-945E348C1849}.ServerHost|Any CPU.ActiveCfg = Debug|Any CPU
+		{3BE3384C-F3BB-443B-B442-945E348C1849}.ServerHost|Any CPU.Build.0 = Debug|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
