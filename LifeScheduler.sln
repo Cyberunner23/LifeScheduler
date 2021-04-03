@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.31019.35
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LifeScheduler.Backend.APIModels", "LifeScheduler.Backend.APIModels\LifeScheduler.Backend.APIModels.csproj", "{DAA93C2B-B69A-437F-A20C-9885BB2E0791}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LifeScheduler.Backend", "LifeScheduler.Backend\LifeScheduler.Backend.csproj", "{DAA93C2B-B69A-437F-A20C-9885BB2E0791}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LifeScheduler.Backend.ASPNetCore", "LifeScheduler.Backend.ASPNetCore\LifeScheduler.Backend.ASPNetCore.csproj", "{3336ADF3-8E61-45D1-80BE-194D6C00554D}"
 EndProject
