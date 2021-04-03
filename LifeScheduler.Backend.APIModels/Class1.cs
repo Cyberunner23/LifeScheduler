@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace LifeScheduler.Backend.ApiModels
+namespace LifeScheduler.Backend.APIModels
 {
     public class Class1
     {

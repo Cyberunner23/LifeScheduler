@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace LifeScheduler.Backend.Logic
+namespace LifeScheduler.BusinessLogic
 {
     public class Class1
     {
